@@ -1,0 +1,26 @@
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <div class="container">
+        <%= link_to "Loop", {controller: "home", action: "index"}, class: "navbar-brand" %>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Loop?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <%= link_to "Login", {controller: "home", action: "index"}, class: "btn btn-outline-light", role: "button" %>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>  
